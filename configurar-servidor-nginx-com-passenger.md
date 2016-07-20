@@ -38,7 +38,7 @@
 
 		~$ ssh demo@SERVER_IP_ADDRESS
 	
-7.Criando o diretório da app e adicionado permissoes
+7. Criando o diretório da app e adicionado permissoes
 
 		~$ mkdir  repositorios
 		~$ sudo chown -R demo:deployers repositorios/
