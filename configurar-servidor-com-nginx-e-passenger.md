@@ -38,7 +38,7 @@
 
 		~$ ssh demo@SERVER_IP_ADDRESS
 	
-7. Criando o diretório da app e adicionado permissoes
+7. Criando o diretório da app e adicionado permissões
 
 		~$ mkdir  repositorios
 		~$ sudo chown -R demo:deployers repositorios/
@@ -46,7 +46,13 @@
 		# Gera uma chave ssh-rsa
 		~$ ssh-keygen -t rsa -C "email@email.com.br"
 		# Copiar a chave gerada para o github/gitlab
-		~$ cat ~/.ssh/id_rsa.pub 
+		~$ cat ~/.ssh/id_rsa.pub
+		~$ sudo apt-get install git
+		~$ cd repositorios
+		# Agora dentro de repositorios rode o camando abaixo para criar um novo repositório
+		~$ git init
+		# Baixe o repositório
+		~$ git clone git@github.com:exemple/myapp.git
 		
 8. Instalar gem passsenger
 
