@@ -36,9 +36,10 @@
 		# Para sair e salvar precione Ctrl+x depois Y e Enter
 
 6. Se estiver usando a gem devise
-	  No arquivo config/initializers/devise.rb adicione
+
+		No arquivo config/initializers/devise.rb adicione
 		config.secret_key = ENV['DEVISE_SECRET_KEY'] if Rails.env.production?
-	  No arquivo config/local_env.yml adicione
+		No arquivo config/local_env.yml adicione
 		DEVISE_SECRET_KEY: ebf2ab4...w31c
 
 7. Rodando as migrações
