@@ -1,4 +1,4 @@
-# Instalando e configurando PostgreSQL no servidor
+# Instalando e configurando PostgreSQL no Ubuntu
 
 ### Nesse passo seu servidor deve estar configurado corretamente. Caso contrario acesse: https://github.com/DouglasdaRocha/tutoriais/blob/master/configurar-servidor-com-nginx-e-passenger.md para configurá-lo
 
