@@ -1,4 +1,4 @@
-# Configurando servidor Nginx com Passenger 
+# Configurando servidor com Nginx e Passenger 
 
 1. Acesse via ssh
 
