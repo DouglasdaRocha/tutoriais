@@ -1,7 +1,8 @@
 ### NO SERVIDOR
+
 1. Acesse via ssh
 
-  ~$ ssh root@SERVER_IP_ADDRESS
+		~$ ssh root@SERVER_IP_ADDRESS
 
 2. Instalando git e pacotes necessários
 		
@@ -23,10 +24,10 @@
 
 4. Criando um usuário com permissões root
 
-  # Criar um Novo Usuário chamado demo
-  ~$ adduser demo 
-  # Adiciona Privilégios de Root
-  ~$ gpasswd -a demo sudo
+		# Criar um Novo Usuário chamado demo
+		~$ adduser demo 
+		# Adiciona Privilégios de Root
+		~$ gpasswd -a demo sudo
   
 5. Configurando permissões do usuário
 		
@@ -35,8 +36,8 @@
 		
 6. Acesse o servidor via ssh com o novo usuário criado
 
-    ~$ ssh demo@SERVER_IP_ADDRESS
-		
+		~$ ssh demo@SERVER_IP_ADDRESS
+	
 7.Criando o diretório da app e adicionado permissoes
 
 		~$ mkdir  repositorios
@@ -61,11 +62,11 @@
 		
 11. Configurando o NGINX
 
-  # Acesse o arquivo /opt/nginx/conf/nginx.conf
+		# Acesse o arquivo /opt/nginx/conf/nginx.conf
   
-  ~$ nano /opt/nginx/conf/nginx.conf
+		 ~$ nano /opt/nginx/conf/nginx.conf
   
-  # Altere a configuração do server para:
+		# Altere a configuração do server para:
 
 		server {
 			listen 80;
