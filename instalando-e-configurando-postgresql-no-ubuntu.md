@@ -39,6 +39,7 @@
 
 		No arquivo config/initializers/devise.rb adicione
 		config.secret_key = ENV['DEVISE_SECRET_KEY'] if Rails.env.production?
+		
 		No arquivo config/local_env.yml adicione
 		DEVISE_SECRET_KEY: ebf2ab4...w31c
 
@@ -46,3 +47,13 @@
 
 		~$ RAILS_ENV=production rake db:migrate
  
+8. Ao testar no navegador se ocorrer o erro "Incomplete response received from application":
+
+		Dentro de sua aplicação rode o comando "rake secret"
+		ele vai gerar uma chave, copie ela e no	arquivo config/local_env.yml adicione ela
+		
+		SECRET_KEY_BASE: bc6dd4...ww3ac
+ 
+9. Compilando os assets
+
+		~$ RAILS_ENV=production bundle exec rake assets:precompile
