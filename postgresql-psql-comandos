@@ -2,7 +2,7 @@ A ferramenta básica de administração do PostgreSQL é o psql, mas é uma ferr
 
 Para acessá-lo execute:
 
-`su – postgresql`
+su – postgresql
 
 psql –U nomeuser nomebanco (tanto no Linux quanto em outros SOs).
 
