@@ -9,6 +9,8 @@ psql –U nomeuser nomebanco (tanto no Linux quanto em outros SOs).
 Exportar banco:
   pg_dump -U USERNAME DBNAME > dbexport.pgsql
 
+Importar banco:
+  psql -U USERNAME DBNAME < dbexport.pgsql
 
 Geral:
 
