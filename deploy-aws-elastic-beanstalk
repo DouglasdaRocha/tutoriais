@@ -1,0 +1,9 @@
+Apos instalar os pagotes necessários, seguir os seguintes passos:
+
+export PATH=~/.local/bin:$PATH
+eb init
+eb create senset-env --service-role aws-elasticbeanstalk-service-role --database.engine postgres --database.instance db.t2.small --database.version 9.5.4
+
+Depois de criar o servidor e o banco no rds você pode enviar modificações com o seguinte comando:
+
+eb deploy my-instance
