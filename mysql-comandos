@@ -1,3 +1,0 @@
-Importar banco de dados
-
- ~$ mysql -u username -p dbname < db.sql
