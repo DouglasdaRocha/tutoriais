@@ -1,6 +1,6 @@
 # Configurando Sidekiq e Redis na Amazon usando ElastiCache 
 
-Levando em conta que sua aplicação já esteja em produção no EC2.
+Levando em conta que sua aplicação já esteja em produção no EC2.Siga o seguinte tutorial: https://medium.com/@benhansen/setting-up-sidekiq-redis-on-aws-elastic-beanstalk-with-elasticache-2efeb32935fe
 
 1. Criar o arquivo .ebextensions com o seguinte arquivo: 0001_setup_swap.config e com o conteudo abaixo, ele vai servir para quando ocorrer perca de memória do servidor, as informações não se percam. 
 
